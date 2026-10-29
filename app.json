@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Assistente de Rotina",
+    "slug": "assistente-rotina",
+    "scheme": "rotina",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "enableRemoteNotifications": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.assistentederotina.app"
+    },
+    "android": {
+      "package": "com.assistentederotina.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F5F0"
+      }
+    }
+  }
+}
